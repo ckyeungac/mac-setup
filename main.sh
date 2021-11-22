@@ -15,7 +15,3 @@ sh ~/.vim_runtime/install_awesome_vimrc.sh
 conda init zsh
 exec "$SHELL"
 conda config --set auto_activate_base false
-
-# setup git
-git config --global user.name "Kit Yeung"
-git config --global user.email "ckyeungac@gmail.com"
