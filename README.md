@@ -17,7 +17,7 @@ bash main.sh
 
 Run
 ~~~sh
-bash scripts/setup_git_default.sh
+bash scripts/setup_git.sh
 ~~~
 
 There is manual input from you to autheticate on Github when running `scripts/setup_git.sh`.
