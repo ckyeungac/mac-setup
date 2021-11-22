@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 # ask for sudo upfront
 sudo -v

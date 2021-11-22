@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/zsh
+
 NAME="<name>"
 EMAIL="<email@example.com>"
 PASSPHASE="<passphrase>"
