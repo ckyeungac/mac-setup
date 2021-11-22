@@ -1,1 +1,0 @@
-vscode --install-extension (<extension-id> | <extension-vsix-path>)
