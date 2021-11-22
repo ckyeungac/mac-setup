@@ -57,6 +57,7 @@ brew install awscli
 brew install docker
 brew install docker-compose
 brew install git
+brew install gh
 brew install pre-commit
 brew install wget
 brew install --cask anaconda
