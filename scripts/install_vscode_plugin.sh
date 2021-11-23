@@ -1,5 +1,12 @@
 #!/bin/zsh
 
+# check if visual studio code is installed.
+if [ ! -d "/Applications/Visual Studio Code.app"]; then
+    echo "Visual Studio Code is not installed. Exit now."
+    exit 1
+fi
+
+# enable `code` command is installed in Path if it is not done yet.
 if [ ! -f "/usr/local/bin/code" ]; then
     sudo ln -fs "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/code" /usr/local/bin/
 fi
