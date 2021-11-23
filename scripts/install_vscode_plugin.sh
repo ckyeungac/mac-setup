@@ -1,5 +1,9 @@
 #!/bin/zsh
 
+if [ ! -f "/usr/local/bin/code" ]; then
+    sudo ln -fs "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/code" /usr/local/bin/
+fi
+
 #   -----------------------------
 #   Python
 #   -----------------------------
