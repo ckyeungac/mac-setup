@@ -40,3 +40,9 @@ code --install-extension yzhang.markdown-all-in-one
 code --install-extension shd101wyy.markdown-preview-enhanced
 code --install-extension mushan.vscode-paste-image
 code --install-extension davidanson.vscode-markdownlint
+
+#   -----------------------------
+#   SQL
+#   -----------------------------
+code --install-extension dorzey.vscode-sqlfluff
+code --install-extension mtxr.sqltools
