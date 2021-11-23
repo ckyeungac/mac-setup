@@ -13,8 +13,8 @@ fi
 
 #   -----------------------------
 #   Productivity
-#   ----------------------------- 
-code --install-extension file-icons                             # prettify file icon 
+#   -----------------------------
+code --install-extension file-icons                             # prettify file icon
 code --install-extension formulahendry.code-runner              # run a code snippet
 code --install-extension shan.code-settings-sync                # sync vscode setting cross device
 code --install-extension eamodio.gitlens                        # navigate code change in git
@@ -25,7 +25,7 @@ code --install-extension ritwickdey.LiveServer                  # launch local d
 
 #   -----------------------------
 #   Formatting and Linting
-#   ----------------------------- 
+#   -----------------------------
 code --install-extension oderwat.indent-rainbow             # general
 code --install-extension esbenp.prettier-vscode             # general linting
 code --install-extension dbaeumer.vscode-eslint             # JS
@@ -37,13 +37,13 @@ code --install-extension mikestead.dotenv                   # .env
 
 #   -----------------------------
 #   Debugging
-#   ----------------------------- 
-code -install-extension streetsidesoftware.code-spell-checker       # spell checking 
+#   -----------------------------
+code -install-extension streetsidesoftware.code-spell-checker       # spell checking
 code -install-extension chrmarti.regex                              # regex previewer
 code -install-extension hbenl.vscode-test-explorer                  # UI for test
 
 #   -----------------------------
-#   Tool-specific 
+#   Tool-specific
 #   -----------------------------
 
 # python
