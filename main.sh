@@ -1,10 +1,23 @@
 #!/bin/zsh
 
-# install app
-bash scripts/install_app.sh
+# install brew if not exist
+if [[ $(command -v brew) == "" ]]; then
+    echo "'brew' not found. Install it now."
+    BREW_URL="https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh"
+    yes | /bin/bash -c "$(curl -fsSL $BREW_URL)"
+
+# update brew if exist
+else
+    echo "Updating 'brew'"
+    brew update
+fi
+
+# install desired app via Brewfile
+brew bundle install --file=./Brewfile
+
 
 # setup terminal command
-cp scripts/.zprofile ~/.zprofile
+cp .zprofile ~/.zprofile
 source ~/.zprofile
 exec "$SHELL"
 
@@ -17,3 +30,9 @@ exec "$SHELL"
 conda init zsh
 exec "$SHELL"
 conda config --set auto_activate_base false
+
+# setup vscode
+zsh ./install_vscode_plugin.sh
+
+
+echo "All Done :)"
