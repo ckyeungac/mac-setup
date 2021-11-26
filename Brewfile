@@ -1,6 +1,7 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+tap "homebrew/cask-drivers"
 
 
 #   -----------------------------
@@ -8,6 +9,7 @@ tap "homebrew/core"
 #   -----------------------------
 cask "google-chrome"
 cask "google-drive"
+cask "logitech-options"
 cask "nordvpn"
 cask "spotify"
 mas "iMovie", id: 408981434
