@@ -88,3 +88,7 @@ brew "kubernetes-cli"
 brew "kubectx"
 brew "helm"
 brew "minikube"
+
+# Machine Learning
+brew "cmake"
+brew "libomp"
