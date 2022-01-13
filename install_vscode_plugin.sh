@@ -23,6 +23,7 @@ code --install-extension ms-vscode-remote.remote-ssh            # open folder on
 code --install-extension ms-vscode-remote.remote-containers     # open folder inside a docker container
 code --install-extension ritwickdey.LiveServer                  # launch local development servers
 code --install-extension tabnine.tabnine-vscode                 # AI code completion tool
+code --install-extension tomoki1207.pdf                         # display PDF file
 
 #   -----------------------------
 #   Formatting and Linting
