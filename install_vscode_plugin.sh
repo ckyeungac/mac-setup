@@ -31,7 +31,6 @@ code --install-extension tomoki1207.pdf                         # display PDF fi
 code --install-extension oderwat.indent-rainbow             # general
 code --install-extension esbenp.prettier-vscode             # general linting
 code --install-extension dbaeumer.vscode-eslint             # JS
-code --install-extension kevinrose.vsc-python-indent        # python
 code --install-extension davidanson.vscode-markdownlint     # markdown
 code --install-extension hex-ci.stylelint-plus              # CSS
 code --install-extension redhat.vscode-yaml                 # yaml
