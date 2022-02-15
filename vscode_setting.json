@@ -34,8 +34,5 @@
       "comments": false,
       "strings": true
     }
-  },
-  "[markdown]": {
-    "editor.tabSize": 2
-  },
+  }
 }
