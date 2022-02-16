@@ -38,7 +38,7 @@ exec "$SHELL"
 conda config --set auto_activate_base false
 
 # setup vscode
-zsh ./install_vscode_plugin.sh
+zsh ./vscode/install_vscode_plugin.sh
 
 # setup pyenv
 cat >> ~/.zprofile << EOL
