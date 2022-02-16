@@ -18,12 +18,3 @@ trash () { command mv "$@" ~/.Trash ; }     # Moves a file to the MacOS trash
 #   -------------------------------
 #   App Customization
 #   -------------------------------
-
-# open Sublime as `subl`
-export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
-
-# open Visual Studio Code as `vscode`
-vscode () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
-
-# pyenv
-eval "$(pyenv init --path)"

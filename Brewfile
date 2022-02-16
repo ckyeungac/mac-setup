@@ -94,4 +94,3 @@ brew "minikube"
 # data analytics
 cask "tableau"
 cask "dbeaver-community"
-
