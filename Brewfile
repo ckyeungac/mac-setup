@@ -23,8 +23,6 @@ mas "The Unarchiver", id: 425424353
 #   Documentation App
 #   -----------------------------
 cask "notion"
-cask "quip"
-mas "Agenda", id: 1287445660
 
 
 #   -----------------------------
@@ -54,16 +52,19 @@ cask "1Password"
 #   Development Tool
 #   -----------------------------
 
-# common
+# terminal
+brew "node"
+brew "openssl@1.1"
 brew "tree"
 brew "tmux"
 brew "wget"
-brew "node"
 
-# data analytics
+# python
+brew "cmake"
+brew "libomp"
+brew "pyenv"
+brew "zlib"
 cask "anaconda"
-cask "tableau"
-cask "dbeaver-community"
 
 # cloud
 brew "awscli"
@@ -81,6 +82,7 @@ brew "docker-compose"
 brew "gh"
 brew "git"
 brew "git-lfs"
+brew "gitmoji"
 brew "pre-commit"
 
 # Kubernetes
@@ -89,6 +91,7 @@ brew "kubectx"
 brew "helm"
 brew "minikube"
 
-# Machine Learning
-brew "cmake"
-brew "libomp"
+# data analytics
+cask "tableau"
+cask "dbeaver-community"
+
