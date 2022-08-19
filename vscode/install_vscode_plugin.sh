@@ -24,6 +24,7 @@ code --install-extension ms-vscode-remote.remote-containers     # open folder in
 code --install-extension ritwickdey.LiveServer                  # launch local development servers
 code --install-extension tabnine.tabnine-vscode                 # AI code completion tool
 code --install-extension tomoki1207.pdf                         # display PDF file
+code --install-extension MS-vsliveshare.vsliveshare             # pair-programming
 
 #   -----------------------------
 #   Formatting and Linting
