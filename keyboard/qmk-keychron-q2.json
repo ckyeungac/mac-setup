@@ -1,7 +1,24 @@
 {
   "name": "Keychron Q2",
   "vendorProductId": 875823377,
-  "macros": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""],
+  "macros": [
+    "{KC_LGUI,KC_EQL}",
+    "{KC_LGUI,KC_MINS}",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
   "layers": [
     [
       "KC_GRV",
@@ -169,8 +186,8 @@
       "KC_MPLY",
       "KC_MNXT",
       "KC_MUTE",
-      "KC_VOLD",
-      "KC_VOLU",
+      "MACRO01",
+      "MACRO00",
       "KC_DEL",
       "KC_TRNS",
       "RGB_TOG",
