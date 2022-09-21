@@ -9,7 +9,6 @@ tap "homebrew/cask-drivers"
 #   -----------------------------
 cask "google-chrome"
 cask "google-drive"
-cask "logitech-options"
 cask "nordvpn"
 cask "spotify"
 mas "iMovie", id: 408981434
@@ -46,6 +45,17 @@ cask "whatsapp"
 #   Password Manager App
 #   -----------------------------
 cask "1Password"
+
+#   -----------------------------
+#   Accessory App
+#   -----------------------------
+cask "logitech-options"
+cask "via"
+
+#   -----------------------------
+#   VPN App
+#   -----------------------------
+cask "v2rayx"
 
 
 #   -----------------------------
