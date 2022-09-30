@@ -50,6 +50,7 @@ cask "1Password"
 #   -----------------------------
 cask "logitech-options"
 cask "via"
+cask "rectangle"
 
 #   -----------------------------
 #   VPN App
