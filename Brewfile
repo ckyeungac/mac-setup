@@ -9,7 +9,6 @@ tap "homebrew/cask-drivers"
 #   -----------------------------
 cask "google-chrome"
 cask "google-drive"
-cask "nordvpn"
 cask "spotify"
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
