@@ -4,7 +4,7 @@
   "macros": [
     "{KC_LGUI,KC_EQL}",
     "{KC_LGUI,KC_MINS}",
-    "",
+    "{KC_LGUI,KC_SLSH}",
     "",
     "",
     "",
@@ -231,7 +231,7 @@
       "KC_TRNS",
       "KC_TRNS",
       "KC_TRNS",
-      "KC_TRNS",
+      "MACRO02",
       "KC_NO",
       "KC_TRNS",
       "KC_TRNS",
