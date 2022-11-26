@@ -1,17 +1,17 @@
 #!/bin/zsh
 
 # setup terminal command
-cp .zprofile ~/.zprofile
-source ~/.zprofile
-exec "$SHELL"
+if [[ $(head -n 1 ~/.zprofile) != '### Kit Custom zprofile ###' ]]; then
+    cp .zprofile ~/.zprofile
+    source ~/.zprofile
+    exec "$SHELL"
+fi
 
 # install brew if not exist
 if [[ $(command -v brew) == "" ]]; then
     echo "'brew' not found. Install it now."
     BREW_URL="https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh"
     yes | /bin/bash -c "$(curl -fsSL $BREW_URL)"
-
-# update brew if exist
 else
     echo "Updating 'brew'"
     brew update
@@ -30,12 +30,12 @@ EOL
 # setup vim
 git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
 sh ~/.vim_runtime/install_awesome_vimrc.sh
-exec "$SHELL"
 
 # setup conda basic setting
-conda init zsh
-exec "$SHELL"
-conda config --set auto_activate_base false
+if [[ $(command -v conda == "conda" )]]; then
+    conda init zsh
+    conda config --set auto_activate_base false
+fi
 
 # setup vscode
 zsh ./vscode/install_vscode_plugin.sh
@@ -52,6 +52,5 @@ cat >> ~/.zshrc << EOL
 eval "$(pyenv init -)"
 
 EOL
-
 
 echo "All Done :)"
