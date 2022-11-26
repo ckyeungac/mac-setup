@@ -40,17 +40,4 @@ fi
 # setup vscode
 zsh ./vscode/install_vscode_plugin.sh
 
-# setup pyenv
-cat >> ~/.zprofile << EOL
-# pyenv
-eval "$(pyenv init --path)"
-
-EOL
-
-cat >> ~/.zshrc << EOL
-# pyenv
-eval "$(pyenv init -)"
-
-EOL
-
 echo "All Done :)"
