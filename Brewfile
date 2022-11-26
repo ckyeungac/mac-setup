@@ -2,6 +2,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/cask-drivers"
+tap "hashicorp/tap"
 
 
 #   -----------------------------
@@ -94,6 +95,9 @@ brew "git"
 brew "git-lfs"
 brew "gitmoji"
 brew "pre-commit"
+
+# terraform
+brew "hashicorp/tap/terraform"
 
 # Kubernetes
 brew "kubernetes-cli"

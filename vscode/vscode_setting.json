@@ -5,7 +5,7 @@
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
-  "editor.tabSize": 4,
+  "editor.tabSize": 2,
   "editor.rulers": [80, 120],
   "emmet.triggerExpansionOnTab": true,
   "eslint.alwaysShowStatus": true,
@@ -17,22 +17,31 @@
   "[python]": {
     "gitlens.codeLens.symbolScopes": ["!Module"],
     "editor.tabSize": 4,
-    "editor.wordBasedSuggestions": false
+    "editor.wordBasedSuggestions": false,
+    "editor.formatOnSave": false
   },
   "[dockerfile]": {
-    "editor.tabSize": 2,
     "editor.quickSuggestions": {
       "strings": true
-    }
+    },
+    "editor.tabSize": 2
   },
   "[yaml]": {
-    "editor.insertSpaces": true,
-    "editor.tabSize": 2,
     "editor.autoIndent": "advanced",
+    "editor.insertSpaces": true,
     "editor.quickSuggestions": {
       "other": true,
       "comments": false,
       "strings": true
-    }
+    },
+    "editor.tabSize": 2
+  },
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "[terraform-var]": {
+    "editor.tabSize": 2
   }
 }
